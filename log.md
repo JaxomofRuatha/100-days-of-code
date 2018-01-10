@@ -21,3 +21,11 @@
 **Thoughts:** Having some issues with the autocomplete form's styling, but the functionality is restored and I was able to get a better feel for how the third party React component is set up.
 
 **Link to work**: [JOR Local Weather](https://github.com/JaxomofRuatha/fcc-weather)
+
+### Day 2: January 9, 2018
+
+**Today's Progress**: Committed the shell for React/Redux opinionated boilerplate, played around with sandbox settings, touched up Weather a bit more.
+
+**Thoughts:** Today was my last day at my job due to contract termination, so...actually happy with how much I got done, even if most of it wasn't coding. I've been meaning to get some personal templates/starters set up for a while, especially for experimentation, so this is a good step in that direction!
+
+**Link to work**: [JOR React/Redux Starter](https://github.com/JaxomofRuatha/jor-react-redux-starter)
