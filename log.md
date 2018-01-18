@@ -55,3 +55,27 @@
 **Today's Progress**: Continued on several things (boilerplate, Docker, Racket, Wordpress, API things, Wikiviewer), mostly ended up learning a lot more than I planned about Bash/Linux advanced usage.
 
 **Thoughts:** I made the mistake of trying to upgrade WSL to Ubuntu 17.10, and between that breaking everything and Fish continuing to lag things out, I reinstalled and switched to ZSH. Pretty happy with it so far, and in the process I learned a ton about Bash setup. Also realized today that I can have a server running Wordpress without actually hosting said server. Obvious but somehow it didn't click until the meetup today.
+
+### Day 7: January 14, 2018
+
+**Today's Progress**: Started on the Calculator project (probably going to use Typescript, possibly Angular), able to get the Wikiviewer compiling and sending AJAX requests again.
+
+**Thoughts:** In keeping with trying to use varied technologies between projects, I learned most of TypeScript basics today and started using it for my Calculator app. So far it's very basic, but I'm likely going to use the project to learn Angular. I was able to finally clean up my Frankenstein code with the WikiViewer (I had tried to implement too many new things at once), so at least it's back to compiling without errors.
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 8: January 15, 2018
+
+**Today's Progress**: Continued modifying boilerplate, mostly worked on WikiViewer
+
+**Thoughts:** I spent a good portion of today figuring out how to make Redux play nice with Immutable and structure things appropriately. I have better access to what's happening now, but still running into some issues.
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 9: January 16, 2018
+
+**Today's Progress**: WikiViewer almost ready to have React UI implemented.
+
+**Thoughts:** I finally got to a structure I'm pretty happy with for my WikiViewer, and now the only things remaining are the UI and getting Redux Saga to behave. Unfortunately I ended up banging my head against (what I'm assuming is) async yet again, as my Saga is returning `undefined` even when everything indicates the data is correctly retrieved and processed.
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
