@@ -79,3 +79,33 @@
 **Thoughts:** I finally got to a structure I'm pretty happy with for my WikiViewer, and now the only things remaining are the UI and getting Redux Saga to behave. Unfortunately I ended up banging my head against (what I'm assuming is) async yet again, as my Saga is returning `undefined` even when everything indicates the data is correctly retrieved and processed.
 
 **Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 10: January 17, 2018
+
+**Today's Progress**: Worked on getting docker-compose to work on two different environments
+
+**Thoughts:** Kind of an off day, had to help a friend and apparently Docker doesn't like either of my computers very much.
+
+### Day 11: January 18, 2018
+
+**Today's Progress**: Still having some issues with WikiViewer and redux-saga
+
+**Thoughts:** I ended up going to a meetup that happened to be on the topic of redux-saga, got some ideas where to try and fix things but still unable to completely get working before the end of the day.
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 12: January 19, 2018
+
+**Today's Progress**: WikiViewer redux-saga finally working, added in data transformation from API.
+
+**Thoughts:** Continuing to work through the various layers of React/Redux/Immutable libraries I decided to implement on this project. I'm pretty happy that I learned them on something relatively straightforward, because some of the documentation is not clear at all (especially for my use case of "everything working together and Immutable.js data structures").
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 13: January 20, 2018
+
+**Today's Progress**: WikiViewer reducers and data flow updated, crude selector set up and working.
+
+**Thoughts:** Some of the original and continuing issues I've been having on this project were due to libraries not taking Immutable into account (shocking), so I fixed those parts. Still trying to fully implement normalizr and reselect, since their documentation and examples are the least useful by far for what I'm trying to do with them.
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
