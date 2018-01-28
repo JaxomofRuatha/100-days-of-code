@@ -133,3 +133,33 @@
 **Thoughts:** I was able to get a few tests running but partway through I figured out part of the problems I was having with reselect and started on sorting those out. Still having difficulties, and as much as Immutable is part of the problem, I think I want to work on some documentation for these libraries so people don't have the same issues.
 
 **Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 17: January 24, 2018
+
+**Today's Progress**: Revamped naming system on Portfolio and cleaning up SCSS to match better practices.
+
+**Thoughts:** I've been putting off completely cleaning up all the CSS for my Portfolio, since it's been through various iterations where Grid was partially implemented and also where I was testing various front end tools. Now at least the naming conventions and structure are more maintainable, and getting better!
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 18: January 25, 2018
+
+**Today's Progress**: I dabbled in several projects today (Portfolio, Wiki, starters) and watched the rest of the CSS Grid course.
+
+**Thoughts:** Not as much time today, but able to make some progress on several projects and mostly learning.
+
+### Day 19: January 26, 2018
+
+**Today's Progress**: Continued to make progress in untangling the Portfolio CSS and making the Wiki Redux libraries work.
+
+**Thoughts:** I dealt with some computer issues today, but was still able to get a decent amount done on both projects. Mostly at this point the issue with Wiki is figuring out exactly what each library is doing with the data it's getting, and what it's giving to the next library in line to process.
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio), [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 20: January 27, 2018
+
+**Today's Progress**: Rebuilt most of the Portfolio to actually take advantage of CSS Grid
+
+**Thoughts:** Now that I'm a little more comfortable with it, I'm using CSS Grid for almost every part of my page. Initially I had avoided it entirely because I was concerned about compatibility, and later I only used it when there were more complicated components that needed advanced layout tools, but I'm working to replace most if not all of the flexbox in the project and have it work out to be responsive as a side effect in many cases.
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
