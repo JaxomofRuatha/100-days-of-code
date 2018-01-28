@@ -109,3 +109,27 @@
 **Thoughts:** Some of the original and continuing issues I've been having on this project were due to libraries not taking Immutable into account (shocking), so I fixed those parts. Still trying to fully implement normalizr and reselect, since their documentation and examples are the least useful by far for what I'm trying to do with them.
 
 **Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
+
+### Day 14: January 21, 2018
+
+**Today's Progress**: Worked on getting the image search microservice updated, continued cleaning up Portfolio.
+
+**Thoughts:** I at least was able to figure out the API for the image search and set up the architecture to what I've started to use more. I haven't quite had a chance to finish updating every file, but it should be pretty quick as soon as I go back through.
+
+**Link to work**: [Image Search Microservice](https://github.com/JaxomofRuatha/fcc-imagesearch)
+
+### Day 15: January 22, 2018
+
+**Today's Progress**: I started on a front end boilerplate that allows me to do something similar to Codepen with testing out designs.
+
+**Thoughts:** I've wanted to start working more on truly front end since I've done far more either back-end or non-visual front end data. I'm already excited about the starter I'm making for my full-stack React, but this is going to be much more of a sandbox to just experiment with.
+
+**Link to work**: [Design Playground](https://github.com/JaxomofRuatha/design-playground)
+
+### Day 16: January 23, 2018
+
+**Today's Progress**: Started on testing for WikiViewer since I got out of it some with the documentation issues in the technologies working together.
+
+**Thoughts:** I was able to get a few tests running but partway through I figured out part of the problems I was having with reselect and started on sorting those out. Still having difficulties, and as much as Immutable is part of the problem, I think I want to work on some documentation for these libraries so people don't have the same issues.
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer)
