@@ -163,3 +163,81 @@
 **Thoughts:** Now that I'm a little more comfortable with it, I'm using CSS Grid for almost every part of my page. Initially I had avoided it entirely because I was concerned about compatibility, and later I only used it when there were more complicated components that needed advanced layout tools, but I'm working to replace most if not all of the flexbox in the project and have it work out to be responsive as a side effect in many cases.
 
 **Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 21: January 28, 2018
+
+**Today's Progress**: Updated the layout of the Projects section.
+
+**Thoughts:** I changed the Projects viewer to look a bit cleaner after getting feedback on what it looked like. I'm not sure on some of the coloring and likely will change some of it later, but it's looking considerably less clunky.
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 22: January 29, 2018
+
+**Today's Progress**: Worked on some of the MOOC.fi Java course, got Docker working on W10 mostly.
+
+**Thoughts:** I'm going back to working in Java some, since I feel like I'm well-versed enough in the JS ecosystem now to branch back out a bit. I think it helps a lot with seeing different "best practices" and applying them to what I've been doing in other frameworks. I also spent a while trying to get Docker working in WSL, and though it's still kind of clunky I at least have it able to SSL connect through and access it as normal. I'm considering getting W10 Pro just for Hyper-V since that seems to be the root of a lot of my issues...
+
+### Day 23: January 30, 2018
+
+**Today's Progress**: Got tab functionality working again for portfolio Projects.
+
+**Thoughts:** I was able to get the updated layout working correctly with the tabs event listeners, though still having some issues with it being inconsistent.
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 24: January 31, 2018
+
+**Today's Progress**: Restructured HTML to reflect semantic guidelines as much as possible, eliminated some nesting.
+
+**Thoughts:** Now that I have a better idea where I want the finished version of this project to be, I updated the tags to be more in line with expectations for HTML5 semantics. I also moved some things around to have them work better with the CSS/layout/interactions since the original versions hadn't been planned out with the current structure in mind.
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 25: February 1, 2018
+
+**Today's Progress**: Fixed errors with clickable regions on portfolio.
+
+**Thoughts:** I figured out what the issue I was having with the tabs was: the anchor tags weren't taking up the entirety of the list elements, so when I clicked outside the covered area the variables weren't being stored correctly as targets. Everything is working as intended now, though I will be adding in error handling to make sure that doesn't happen in other unexpected ways.
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 26: February 2, 2018
+
+**Today's Progress**: Added content for Project section, cleaning up other styling.
+
+**Thoughts:** Now that the section for projects is working correctly, I added and updated some of the content to each. This included finding out that Firefox Developer Edition has a sweet screenshot function included, which just makes me love it even more than I already did!
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 27: February 3, 2018
+
+**Today's Progress**: Worked more on the Java course, started going through and updating files.
+
+**Thoughts:** Not a lot of true coding done today, but I am hoping to start on getting some writing done for the technology/tutorial blog I've been planning for a long time. With the meetups I've been leading, I've realized how much of a need there is for a better structuring of learning for those between beginner and advanced.
+
+### Day 28: February 4, 2018
+
+**Today's Progress**: Fixed issues on portfolio with external link layering, updated the format of Contact section, trying to get PostCSS working and live version correctly running.
+
+**Thoughts:** Unfortunately the documentation for PostCSS in a non-Gulp environment isn't terribly good, and I've run into some issues with getting it to play nice with the node-sass compiler process I already have running. I was able to get a dedicated branch set up for the production build, so it's at least live, but it certainly still needs a lot of work.
+
+**Link to work**: [Portfolio](https://github.com/JaxomofRuatha/Portfolio)
+
+### Day 29: February 5, 2018
+
+**Today's Progress**: Finished both the Image Search and File Metadata Express microservices (not styled yet).
+
+**Thoughts:** The image search API went pretty smoothly after I stopped trying to use Google's custom search API (since it has pretty significant limitations without paying) and switched to Pixabay. The metadata project was extremely simple and only took a couple hours to complete in its entirety, since I already had a basic structure set up from other projects.
+
+**Link to work**: [JOR Image Search](https://github.com/JaxomofRuatha/fcc-imagesearch), [JOR Metadata](https://github.com/JaxomofRuatha/fcc-metadata)
+
+### Day 30: February 6, 2018
+
+**Today's Progress**: Completed the WikiViewer (minus some bugs and cleanup), finished two intermediate algorithm problems, set up a hub for the Express microservices
+
+**Thoughts:** Extremely productive day! I couldn't sleep for a while the night before, and ended up solving the problem I was having with the data displaying incorrectly with React because of Immutable objects. From there I was able to completely set up the UI and style everything, and it's working completely. There are a few snags with using the images and cleaning up some of the code that I wasn't certain how to handle initially, but at this point it's just polishing.
+
+And for the hub, I was considering making an actual site, but I think it works out nicely to just have a markdown file with the links. I may change my mind on that later, but for now I think it works well as a starting point given how basic the projects are UI-wise.
+
+**Link to work**: [JOR WikiViewer](https://github.com/JaxomofRuatha/fcc-wikiviewer), [Microservices Hub](https://github.com/JaxomofRuatha/microservices-hub), [Algorithm Practice](https://github.com/JaxomofRuatha/Algorithm-Practice)
